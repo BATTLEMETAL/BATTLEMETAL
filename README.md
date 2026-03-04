@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hi, I'm Michal
 
-<!--
-**BATTLEMETAL/BATTLEMETAL** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Software Engineer specializing in AI Engineering, Android Development, and Automation.
 
-Here are some ideas to get you started:
+## About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I build AI-powered systems that run locally on consumer hardware and mobile apps that solve real-world problems.
+
+- AI Engineering: Local LLM deployment, quantization, RAG pipelines, multi-agent systems
+- - Android Development: Native Java apps with Room, Retrofit, Material Design
+  - - Automation: End-to-end pipelines for content generation and data processing
+   
+    - ## Featured Projects
+   
+    - - Synapsa-Local-LLM-Agent: Autonomous AI ecosystem with multi-agent architecture and NF4 quantization
+      - - SmartBudget-OCR: Android budget manager with OCR receipt scanning (Engineering Thesis)
+        - - TimePal: AI-powered task manager with GPT integration
+          - - Shortsyt: Autonomous YouTube Shorts generation pipeline with local AI
+            - - SalesBot: Automated Excel-to-PDF sales report generator
+              - 
