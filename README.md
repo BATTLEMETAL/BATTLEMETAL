@@ -17,4 +17,3 @@ I build AI-powered systems that run locally on consumer hardware and mobile apps
         - - TimePal: AI-powered task manager with GPT integration
           - - Shortsyt: Autonomous YouTube Shorts generation pipeline with local AI
             - - SalesBot: Automated Excel-to-PDF sales report generator
-              - 
