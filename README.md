@@ -21,7 +21,7 @@ I'm a Software Engineer with a passion for building **AI-powered systems** that 
 - **📱 Android Development** — Native Java/Kotlin apps with Room, Retrofit, Material Design
 - **⚡ Automation** — End-to-end pipelines for content generation, data processing, and DevOps
 
-📍 **Based in Poland — relocating to Germany (Stadtlohn) | Open to Remote DACH & Enschede (NL) roles**
+📍 **Poland (Remote EU) | Relocating to Stadtlohn, Germany — Open to Remote DACH, Enschede (NL), and Remote Worldwide roles**
 
 ---
 
