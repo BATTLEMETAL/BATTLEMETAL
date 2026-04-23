@@ -19,7 +19,7 @@
 
 ## 🧠 Synapsa — Autonomous Local LLM Agent System
 
-Multi-agent AI platform running **Qwen 2.5 7B** fully offline. The technically unique part: a custom Triton compatibility layer that makes NF4 quantization work on Windows where no upstream solution exists. Features a self-healing "Ultimate Auditor" loop, teacher-student LoRA fine-tuning pipeline, FastAPI REST layer, and 26 unit tests.
+Multi-agent AI platform running **Qwen 2.5 7B** fully offline. The technically unique part: a custom Triton compatibility layer that makes NF4 quantization work on Windows where no upstream solution exists. Features a self-healing "Ultimate Auditor" loop, teacher-student LoRA fine-tuning pipeline, FastAPI REST layer, and 38 unit tests.
 
 `Python` · `PyTorch` · `Transformers` · `PEFT/LoRA` · `bitsandbytes` · `FastAPI` · `Streamlit` · `Docker` · `pytest`
 
