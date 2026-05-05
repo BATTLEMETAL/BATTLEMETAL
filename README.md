@@ -13,7 +13,7 @@
 | 🧪 Unit tests across production systems | **38** |
 | 💾 VRAM reduction via custom Windows patches | **−68%** (14.2 GB → 4.5 GB) |
 | 🤖 Specialized AI agents in Synapsa | **7** |
-| 📅 Daily autonomous pipeline uptime | **6+ weeks** |
+| 📅 Daily autonomous pipeline uptime | **2+ months** |
 
 ---
 
