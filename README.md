@@ -38,11 +38,11 @@ Production pipeline running daily since March 2026. Researches trends, generates
 
 ---
 
-## 📊 SalesBot — Automated Sales Report Pipeline
+## 📊 SalesBot — AI-Powered Sales Report Pipeline
 
-Excel → pandas aggregation → matplotlib charts → ReportLab PDF. Clean modular architecture, 12 pytest unit tests across 3 test classes, GitHub Actions CI on every push.
+Excel → pandas aggregation → **OpenAI GPT-4o-mini executive summary** → matplotlib charts → ReportLab PDF. Clean modular architecture, 12 pytest unit tests across 3 test classes, GitHub Actions CI on every push. AI summary falls back to rule-based analysis in CI (no API key needed).
 
-`Python` · `pandas` · `matplotlib` · `ReportLab` · `pytest` · `GitHub Actions`
+`Python` · `pandas` · `OpenAI API` · `matplotlib` · `ReportLab` · `pytest` · `GitHub Actions`
 
 → [SalesBot](https://github.com/BATTLEMETAL/SalesBot)
 
