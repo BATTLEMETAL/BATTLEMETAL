@@ -9,11 +9,12 @@
 | Metric | Value |
 |---|---|
 | 🎬 YouTube views generated autonomously | **15,130+** |
-| 📹 Videos published without human intervention | **75+** |
+| 📹 Videos published without human intervention | **85+** |
+| 📅 Pipeline active days (no human intervention) | **58+** |
 | 🧪 Unit tests across production systems | **38** |
-| 💾 VRAM reduction via custom Windows patches | **−68%** (14.2 GB → 4.5 GB) |
+| 💾 VRAM reduction via custom Windows patches | **−62%** (14.2 GB → 4.5 GB) |
 | 🤖 Specialized AI agents in Synapsa | **7** |
-| 📅 Daily autonomous pipeline uptime | **2+ months** |
+| 💰 Cost per AI-generated video | **$0** (100% local LLM) |
 
 ---
 
@@ -49,8 +50,10 @@ Excel → pandas aggregation → matplotlib charts → ReportLab PDF. Clean modu
 
 ## 📱 Android Projects
 
+**CineMatch** — Movie/TV recommendation app with TMDB API + OpenAI personalization + OMDB ratings. Firebase Auth, Room DB, Retrofit, Glide, MVVM. SDK 35.
+
 **SmartBudget-OCR** — Budget manager with ML Kit OCR receipt scanning, Firebase Auth, financial analytics. B.Eng. thesis project.
 
 **TimePal** — AI-powered task manager with OpenAI step suggestions, focus engine (Normal/Pressure/Hardcore modes), MVVM + Room + Retrofit.
 
-`Java` · `Android SDK` · `Firebase` · `ML Kit` · `Room` · `Retrofit` · `OpenAI API`
+`Kotlin` · `Java` · `Android SDK 35` · `Firebase` · `ML Kit` · `Room` · `Retrofit` · `OpenAI API` · `TMDB API`
