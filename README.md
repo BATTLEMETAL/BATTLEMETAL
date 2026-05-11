@@ -67,7 +67,7 @@ MLOps       │ pytest · GitHub Actions CI/CD · Docker · pre-commit
 
 | Claim | Proof |
 |---|---|
-| **Production systems, not demos** | 2 paying clients using Synapsa daily |
+| **Production systems, not demos** | first clients using Autonomous YouTube Shorts Pipeline|
 | **Solved unsolved problems** | Triton on Windows — no upstream fix exists, I patched it |
 | **Real metrics** | 18,049 YouTube views, 95 videos, $0/video — verified YouTube Analytics API |
 | **CI/CD discipline** | 27 passing tests, GitHub Actions on every push |
