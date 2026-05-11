@@ -19,7 +19,6 @@
 
 Autonomous multi-agent system running 100% offline. Solves the "Triton on Windows" problem with a custom compatibility layer — reducing VRAM from 14.2 GB → 4.5 GB (**−68%**) without losing inference quality.
 
-**In active use by 2 paying clients:**
 - 📋 Accounting office: daily VAT invoice auditing (KSeF 2026 compliance, MPP threshold detection)
 - 🏗️ Construction company: natural language → cost estimate → VAT invoice
 
