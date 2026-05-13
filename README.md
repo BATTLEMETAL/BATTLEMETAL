@@ -2,7 +2,7 @@
 
 # Michał Zalewski — AI/Python Engineer
 
-**Building production AI systems that run offline, cost $0 to operate, and serve real paying clients.**
+**Building production AI systems that run offline, cost $0 to operate, and serve a real paying B2B client.**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/michał-zalewski-46476138a)
 [![GitHub followers](https://img.shields.io/github/followers/BATTLEMETAL?style=for-the-badge&color=333)](https://github.com/BATTLEMETAL)
@@ -30,7 +30,7 @@ Autonomous multi-agent system running 100% offline. Solves the "Triton on Window
 
 ### 📺 [Shortsyt](https://github.com/BATTLEMETAL/Shortsyt) — Autonomous YouTube Shorts Pipeline
 
-> **95 videos published · 18,049 views · $0/video · 0 human interventions · 58+ days running**
+> **95 videos published · 18,049 views · $0/video · 0 human interventions · 73+ days running**
 
 Full pipeline: LLM script generation → TTS narration → Whisper subtitles → FFmpeg render → YouTube API publish. Self-optimizes via **MicroEVS** — reads live YouTube Analytics and mutates its own prompts based on performance data.
 
