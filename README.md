@@ -23,7 +23,7 @@ Autonomous multi-agent system running 100% offline. Solves the "Triton on Window
 - 🏗️ Construction company: natural language → cost estimate → VAT invoice
 
 ```
-⚡ −68% VRAM   |   ✅ 100% Offline (GDPR)   |   🧪 27 CI Tests   |   $0 API cost
+⚡ −68% VRAM   |   ✅ 100% Offline (GDPR)   |   🧪 38 unit tests   |   $0 API cost
 ```
 
 ---
@@ -54,7 +54,7 @@ Full pipeline: LLM script generation → TTS narration → Whisper subtitles →
 
 ```
 AI/LLM      │ Qwen 2.5 7B · NF4/QLoRA quantization · Unsloth · bitsandbytes · RAG (ChromaDB)
-Frameworks  │ Python · FastAPI · Streamlit · LangChain
+Frameworks  │ Python · FastAPI · Streamlit · custom agentic orchestration
 Video/Media │ FFmpeg · MoviePy · OpenAI Whisper · edge-tts
 Mobile      │ Android (Java) · Room · Retrofit · ML Kit OCR
 MLOps       │ pytest · GitHub Actions CI/CD · Docker · pre-commit
@@ -66,10 +66,10 @@ MLOps       │ pytest · GitHub Actions CI/CD · Docker · pre-commit
 
 | Claim | Proof |
 |---|---|
-| **Production systems, not demos** | first client using Autonomous YouTube Shorts Pipeline |
+| **Production systems, not demos** | 1 paying B2B client (Synapsa, daily use) + autonomous YouTube pipeline live since March 2026 |
 | **Solved unsolved problems** | Triton on Windows — no upstream fix exists, I patched it |
 | **Real metrics** | 18,049 YouTube views, 95 videos, $0/video — verified YouTube Analytics API |
-| **CI/CD discipline** | 27 passing tests, GitHub Actions on every push |
+| **CI/CD discipline** | 38 unit tests, GitHub Actions on every push |
 | **Cost-aware engineering** | Entire AI stack: $0/inference, $0/video, offline-first |
 
 ---
