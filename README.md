@@ -8,13 +8,14 @@
 
 | Metric | Value |
 |---|---|
-| 🎬 YouTube views generated autonomously | **15,130+** |
-| 📹 Videos published without human intervention | **85+** |
-| 📅 Pipeline active days (no human intervention) | **58+** |
+| 🎬 YouTube views generated autonomously | **18,049+** |
+| 📹 Videos published without human intervention | **95+** |
+| 📅 Pipeline active days (no human intervention) | **73+** |
 | 🧪 Unit tests across production systems | **38** |
-| 💾 VRAM reduction via custom Windows patches | **−62%** (14.2 GB → 4.5 GB) |
+| 💾 VRAM reduction via custom Windows patches | **−68%** (14.2 GB → 4.5 GB) |
 | 🤖 Specialized AI agents in Synapsa | **7** |
 | 💰 Cost per AI-generated video | **$0** (100% local LLM) |
+
 
 ---
 
@@ -54,6 +55,13 @@ Excel → pandas aggregation → **OpenAI GPT-4o-mini executive summary** → ma
 
 **SmartBudget-OCR** — Budget manager with ML Kit OCR receipt scanning, Firebase Auth, financial analytics. B.Eng. thesis project.
 
-**TimePal** — AI-powered task manager with OpenAI step suggestions, focus engine (Normal/Pressure/Hardcore modes), MVVM + Room + Retrofit.
+**TimePal** — AI-powered task manager with GPT-4 task decomposition, lifecycle-aware Focus Engine (Normal/Pressure/Hardcore modes), Room DB with async Executor pattern (no ANR). Secret management via BuildConfig — API keys never hardcoded.
+
 
 `Kotlin` · `Java` · `Android SDK 35` · `Firebase` · `ML Kit` · `Room` · `Retrofit` · `OpenAI API` · `TMDB API`
+
+---
+
+📧 mz10062001@gmail.com | 📍 Poland / Remote EU
+
+*All metrics are live and verified from production systems.*
