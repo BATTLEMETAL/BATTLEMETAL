@@ -24,6 +24,8 @@ FastAPI · Pinecone RAG · Groq Llama 3.3 70B · Docker · Railway.app
 
 Cloud-native version of Synapsa — serverless VAT invoice audit API with RAG pipeline, rate-limit fallbacks, and production deployment.
 
+**Live:** [synapsa-cloud-api-production-c3c5.up.railway.app/docs](https://synapsa-cloud-api-production-c3c5.up.railway.app/docs)
+
 ```
 🚀 Live on Railway.app | 🔍 Pinecone Vector DB | 🤖 Llama 3.3 70B
 ```
