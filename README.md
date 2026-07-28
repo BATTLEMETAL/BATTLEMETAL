@@ -1,79 +1,63 @@
-<div align="center">
+# Michał Zalewski — AI / Python Engineer
 
-# Michał Zalewski — AI/Python Engineer
-
-**Building production AI systems that run offline, cost $0 to operate, and serve a real paying B2B client.**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/michał-zalewski-46476138a)
-[![GitHub followers](https://img.shields.io/github/followers/BATTLEMETAL?style=for-the-badge&color=333)](https://github.com/BATTLEMETAL)
-
-</div>
+Building autonomous AI systems and production-ready APIs.
 
 ---
 
-## 🏭 Production Systems (Live)
-
 ### 🧠 [Synapsa-Local-LLM-Agent](https://github.com/BATTLEMETAL/Synapsa-Local-LLM-Agent) — Offline AI Agent Platform
 
-> **Qwen 2.5 7B · NF4 Quantization · Custom Triton Patches · RTX 3060**
+Qwen 2.5 7B · NF4 Quantization · Custom Triton Patches · RTX 3060
 
-Autonomous multi-agent system running 100% offline. Solves the "Triton on Windows" problem with a custom compatibility layer — reducing VRAM from 14.2 GB → 4.5 GB (**−68%**) without losing inference quality.
+Autonomous multi-agent system running 100% offline. Solves the "Triton on Windows" problem with a custom CUDA compatibility layer — reducing VRAM from 14.2 GB → 4.5 GB (−68%) without losing inference quality.
 
-- 📋 Accounting office: daily VAT invoice auditing (KSeF 2026 compliance, MPP threshold detection)
-- 🏗️ Construction company: natural language → cost estimate → VAT invoice
+**Domain:** Automated document auditing (VAT invoice validation — KSeF 2026 compliance, MPP threshold detection, NIP format checks)
 
 ```
-⚡ −68% VRAM   |   ✅ 100% Offline (GDPR)   |   🧪 38 unit tests   |   $0 API cost
+⚡ −68% VRAM | ✅ 100% Offline (GDPR-safe) | 🧪 38 unit tests | $0 API cost
+```
+
+---
+
+### ☁️ [Synapsa Cloud API](https://github.com/BATTLEMETAL/synapsa-cloud-api) — Production REST API
+
+FastAPI · Pinecone RAG · Groq Llama 3.3 70B · Docker · Railway.app
+
+Cloud-native version of Synapsa — serverless VAT invoice audit API with RAG pipeline, rate-limit fallbacks, and production deployment.
+
+```
+🚀 Live on Railway.app | 🔍 Pinecone Vector DB | 🤖 Llama 3.3 70B
 ```
 
 ---
 
 ### 📺 [Shortsyt](https://github.com/BATTLEMETAL/Shortsyt) — Autonomous YouTube Shorts Pipeline
 
-> **95 videos published · 18,049 views · $0/video · 0 human interventions · 73+ days running**
+95 videos published · 18,049 views · $0/video · 0 human interventions · 73+ days autonomous operation
 
-Full pipeline: LLM script generation → TTS narration → Whisper subtitles → FFmpeg render → YouTube API publish. Self-optimizes via **MicroEVS** — reads live YouTube Analytics and mutates its own prompts based on performance data.
+Full pipeline: LLM script generation → TTS narration → Whisper subtitles → FFmpeg render → YouTube API publish.
+Self-optimizes via MicroEVS — reads live YouTube Analytics and mutates its own prompts based on real performance data.
 
 ```
-📊 18,049 views   |   🎬 95 videos   |   💰 $0/video   |   🤖 Fully autonomous
+📊 18,049 views | 🎬 95 videos | 💰 $0/video | 🤖 Fully autonomous
 ```
 
 ---
 
-## 📦 Other Projects
+### 📦 Other Projects
 
-| Project | What it does | Tech |
-|---|---|---|
-| [SalesBot](https://github.com/BATTLEMETAL/SalesBot) | Excel → AI executive summary → PDF report | Python, GPT-4o-mini, ReportLab |
-| [SmartBudget-OCR](https://github.com/BATTLEMETAL/SmartBudget-OCR) | Android budget app with OCR receipt scanning *(Engineering Thesis)* | Java, Android, ML Kit |
-| [TimePal](https://github.com/BATTLEMETAL/TimePal) | AI task manager with GPT integration | Java, Android, OpenAI API |
+- [SalesBot](https://github.com/BATTLEMETAL/SalesBot) — Excel → PDF sales report pipeline (pandas, matplotlib, pytest CI)
+- [CineMatch](https://github.com/BATTLEMETAL/CineMatch) — Android movie recommendation app (TMDB + OpenAI + Firebase + Room DB)
+- [SmartBudget-OCR](https://github.com/BATTLEMETAL/SmartBudget-OCR) — Android budget manager with ML Kit OCR (B.Eng. thesis)
+- [TimePal](https://github.com/BATTLEMETAL/TimePal) — Android time tracking app (MVVM · WorkManager · OpenAI)
 
 ---
 
 ## 🛠️ Core Stack
 
 ```
-AI/LLM      │ Qwen 2.5 7B · NF4/QLoRA quantization · Unsloth · bitsandbytes · RAG (ChromaDB)
-Frameworks  │ Python · FastAPI · Streamlit · custom agentic orchestration
-Video/Media │ FFmpeg · MoviePy · OpenAI Whisper · edge-tts
-Mobile      │ Android (Java) · Room · Retrofit · ML Kit OCR
-MLOps       │ pytest · GitHub Actions CI/CD · Docker · pre-commit
+AI/LLM     │ Qwen 2.5 7B · NF4/QLoRA · Unsloth · bitsandbytes · RAG (Pinecone, ChromaDB)
+Frameworks │ Python · FastAPI · Streamlit · custom agentic orchestration
+Video      │ FFmpeg · MoviePy · OpenAI Whisper · edge-tts
+Mobile     │ Android (Java) · Room · Retrofit · ML Kit OCR · Firebase
+MLOps      │ pytest · GitHub Actions CI/CD · Docker · pre-commit
 ```
-
----
-
-## 📊 What separates my work from tutorials
-
-| Claim | Proof |
-|---|---|
-| **Production systems, not demos** | 1 paying B2B client (Synapsa, daily use) + autonomous YouTube pipeline live since March 2026 |
-| **Solved unsolved problems** | Triton on Windows — no upstream fix exists, I patched it |
-| **Real metrics** | 18,049 YouTube views, 95 videos, $0/video — verified YouTube Analytics API |
-| **CI/CD discipline** | 38 unit tests, GitHub Actions on every push |
-| **Cost-aware engineering** | Entire AI stack: $0/inference, $0/video, offline-first |
-
----
-
-<div align="center">
-<sub>📍 Poland · Open to remote AI/Python Engineering roles</sub>
-</div>
