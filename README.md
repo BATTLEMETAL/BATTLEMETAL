@@ -31,12 +31,12 @@ Autonomous multi-agent system running 100% offline. Solves the "Triton on Window
 
 > **FastAPI · Pinecone RAG · Groq Llama 3.3 70B · Docker · Railway.app**
 
-Cloud-native version of Synapsa — serverless VAT invoice audit API with RAG pipeline, rate-limit fallbacks, and production deployment.
+Cloud-native version of Synapsa — serverless VAT invoice audit API with RAG pipeline, rate-limit fallbacks, and Dockerized deployment architecture.
 
-**Live:** [synapsa-cloud-api-production-c3c5.up.railway.app/docs](https://synapsa-cloud-api-production-c3c5.up.railway.app/docs)
+**Architecture:** Dockerized FastAPI on Railway · Pinecone Vector DB · Groq Llama 3.3 70B fallback chain
 
 ```
-🚀 Live on Railway.app | 🔍 Pinecone Vector DB | 🤖 Llama 3.3 70B
+🚀 Docker + Railway Architecture | 🔍 Pinecone Vector DB | 🤖 Llama 3.3 70B
 ```
 
 ---
@@ -46,17 +46,19 @@ Cloud-native version of Synapsa — serverless VAT invoice audit API with RAG pi
 > **Computer Vision HP-Bar Tracking · OCR Momentum Analyzer · Gemini AI Hooks · Electron Desktop Studio**
 
 End-to-end autonomous video generation and publishing studio:
-- **Smart Camera v11 (OpenCV):** Solves fast champion dash tracking via multi-layer color-space HP-bar segmentation and adaptive velocity clamping (`MAX_DELTA=60px`, `FREEZE_STREAK=8`) — **90/90 frames 100% tracking accuracy**.
+- **Smart Camera (OpenCV):** Solves fast champion dash tracking via multi-layer color-space HP-bar segmentation and adaptive velocity clamping — **100% tracking stability**.
 - **OCR Momentum Analyzer (Tesseract):** Real-time multi-kill OCR, auto-chase speedup (2.8×), dynamic zoom-punch, and 60 FPS slow-motion interpolation.
 - **Multimodal AI & Sound:** Gemini narrative hooks + NCS beat-matched audio mix + automated 1080×1920 thumbnail generation.
 - **Desktop Studio (Electron + React 18 + Vite):** Full GUI management suite with live 7-step render monitor, clip browser, and one-click YouTube publisher.
 
 🎬 **Live Demos on YouTube:**
+- [▶ Katarina Triple Kill (Full Engage Lead + Beat Sync)](https://www.youtube.com/shorts/POgSCGC9yvQ)
 - [▶ Katarina Pentakill 1v5 (Smart Camera + 2.8x Chase Speedup)](https://www.youtube.com/shorts/cVTTQASHe9w)
 - [▶ Katarina Triple Kill Outplay (Fast Short Control 14.8s)](https://www.youtube.com/shorts/rfWXE2-7fkQ)
+- 📺 **Production Channel:** [Dwannellenga (@dwannellenga471)](https://www.youtube.com/@dwannellenga471/shorts)
 
 ```
-🎯 90/90 frames CV tracking   |   🏆 Quality Score 91-92/100   |   💰 $0/video   |   🖥️ Native Desktop Studio
+🎯 100% CV tracking stability   |   🏆 Quality Score 94-100/100   |   💰 $0/video   |   🖥️ Native Desktop Studio
 ```
 
 ---
