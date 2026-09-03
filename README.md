@@ -29,14 +29,15 @@ Autonomous multi-agent system running 100% offline. Solves the "Triton on Window
 
 ### ☁️ [Synapsa Cloud API](https://github.com/BATTLEMETAL/synapsa-cloud-api) — Production REST API
 
-> **FastAPI · Pinecone RAG · Groq Llama 3.3 70B · Docker · Railway.app**
+> **FastAPI · Pinecone RAG · Groq Llama 3.3 70B · Docker · Render.com (Live Demo)**
 
-Cloud-native version of Synapsa — serverless VAT invoice audit API with RAG pipeline, rate-limit fallbacks, and Dockerized deployment architecture.
+Cloud-native version of Synapsa — serverless VAT invoice audit API with RAG pipeline, rate-limit fallbacks, and live interactive documentation.
 
-**Architecture:** Dockerized FastAPI on Railway · Pinecone Vector DB · Groq Llama 3.3 70B fallback chain
+🌐 **Live Demo:** [synapsa-cloud-api.onrender.com/docs](https://synapsa-cloud-api.onrender.com/docs) (Swagger UI)  
+**Architecture:** Dockerized FastAPI on Render · Pinecone Vector DB · Groq Llama 3.3 70B fallback chain
 
 ```
-🚀 Docker + Railway Architecture | 🔍 Pinecone Vector DB | 🤖 Llama 3.3 70B
+🌐 Live on Render | 🔍 Pinecone Vector DB | 🤖 Groq Llama 3.3 70B | 🐳 Docker Containerized
 ```
 
 ---
