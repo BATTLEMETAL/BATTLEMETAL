@@ -1,104 +1,95 @@
 <div align="center">
 
-# Michał Zalewski — AI / Computer Vision / Python Engineer
+# Michał Zalewski — AI & Python Systems Engineer
 
-**Building production AI systems, Computer Vision pipelines, and native Desktop Studios that run locally, cost $0 to operate, and deliver real-world business value.**
+**Building production local-GPU AI systems, Computer Vision pipelines, and native Desktop Studios that run on consumer hardware at $0 cloud inference cost.**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/michał-zalewski-46476138a)
-[![GitHub followers](https://img.shields.io/github/followers/BATTLEMETAL?style=for-the-badge&color=333)](https://github.com/BATTLEMETAL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/micha%C5%82-zalewski-46476138a)
+[![Tests](https://img.shields.io/badge/Tests-480%2B%20Passed%20(pytest)-2EA44F?style=for-the-badge)](https://github.com/BATTLEMETAL/Shortsyt/actions/workflows/ci.yml)
+[![Production Views](https://img.shields.io/badge/YouTube-515K%2B%20Views-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@dwannellenga471/shorts)
+[![Local LLM](https://img.shields.io/badge/Local%20AI-Qwen%202.5%207B%20QLoRA-8A2BE2?style=for-the-badge)](https://github.com/BATTLEMETAL/Synapsa-Local-LLM-Agent)
 
 </div>
 
 ---
 
-## 🏭 Production Systems (Live)
+## 🏭 Flagship Production Systems
 
-### 🧠 [Synapsa-Local-LLM-Agent](https://github.com/BATTLEMETAL/Synapsa-Local-LLM-Agent) — Offline AI Agent Platform
+### 🎬 [Flikcut Studio (Shortsyt)](https://github.com/BATTLEMETAL/Shortsyt) — Autonomous Local-GPU Video & Publishing Engine
 
-> **Qwen 2.5 7B · NF4 Quantization · Custom Triton Patches · RTX 3060**
+> **Synapsa Qwen2.5-7B-4bit QLoRA v2 · OpenCV + FFmpeg NVENC · Binary LevelDB V8 Parser · FastAPI + SQLite WAL · Electron 32 + React 18**
 
-Autonomous multi-agent system running 100% offline. Solves the "Triton on Windows" problem with a custom CUDA compatibility layer — reducing VRAM from 14.2 GB → 4.5 GB (**−68%**) without losing inference quality.
+End-to-end video engineering, telemetry calibration, and 4-platform distribution system running locally on an **RTX 3060 (12 GB VRAM)**:
+- **Local LLM Engine (`Synapsa QLoRA v2`):** Fine-tuned **Qwen2.5-7B-4bit** replaces paid cloud APIs for hook generation, pinned comments, multi-platform copywriting, and watchability defect prediction (`eval 68.33 → 100.0`, `$0` cloud cost).
+- **Binary Outplayed LevelDB / V8 Parser (`outplayed_db.py`):** Custom zero-dependency decoder reading raw Chromium IndexedDB `.log` wire records to anchor kill events and match K/D/A directly from gameplay telemetry.
+- **Smart Camera, Unified Timeline & Defect Gate:** 1080p HP-bar tracking + NVENC 60FPS rendering (`9:16` Shorts & `16:9` compilations via zero-byte NTFS `Viral Vault` hardlinks) guarded by explicit failure assertions (`offscreen`, `camera_jump > 220px`, `intro > 3.5s`) instead of opaque heuristic scores.
+- **48h Reality Gate & Empirical Bayes Learning:** Reconciles live YouTube Data & Analytics API retention (`213` verified videos, `66.2% FIT_CONFIRMED`) back into median-shrunk format weights and duration bounds.
+- **Concurrent Storage & DFY Niche Engine:** Multi-network scheduling (`YouTube`, `TikTok Direct Post`, `Instagram`, `Facebook`) protected by `SQLite WAL` + OS file locks (`msvcrt`/`fcntl`), plus autonomous DFY niche analysis with strict anti-plagiarism gating (`<= 0.35`).
 
-**Domain:** Automated document auditing (VAT invoice validation — KSeF 2026 compliance, MPP threshold detection, NIP format checks).
+📺 **Live Production Channel & Recent Hits:** [Dwannellenga (@dwannellenga471)](https://www.youtube.com/@dwannellenga471/shorts) · [Recent 7K+ Viral Triple Kill](https://www.youtube.com/shorts/4Fyn2vIfQv8) · [Katarina Engage Lead](https://www.youtube.com/shorts/POgSCGC9yvQ) · [1v5 Chase Speedup](https://www.youtube.com/shorts/cVTTQASHe9w)
 
-```
-⚡ −68% VRAM | ✅ 100% Offline (GDPR-safe) | 🧪 38 unit tests | $0 API cost
-```
-
----
-
-### ☁️ [Synapsa Cloud API](https://github.com/BATTLEMETAL/synapsa-cloud-api) — Production REST API
-
-> **FastAPI · Pinecone RAG · Groq Llama 3.3 70B · Docker · Render.com (Live Demo)**
-
-Cloud-native version of Synapsa — serverless VAT invoice audit API with RAG pipeline, rate-limit fallbacks, and live interactive documentation.
-
-🌐 **Live Demo:** [synapsa-cloud-api.onrender.com/docs](https://synapsa-cloud-api.onrender.com/docs) (Swagger UI)  
-**Architecture:** Dockerized FastAPI on Render · Pinecone Vector DB · Groq Llama 3.3 70B fallback chain
-
-```
-🌐 Live on Render | 🔍 Pinecone Vector DB | 🤖 Groq Llama 3.3 70B | 🐳 Docker Containerized
+```text
+📊 515K+ Views (230+ Shorts) | 🎯 97.4% Avg % Viewed · 17.3% Swiped Away | 🧪 430 pytest CI Tests | 💰 $0 API Cost
 ```
 
 ---
 
-### 📺 [Shortsyt](https://github.com/BATTLEMETAL/Shortsyt) — Autonomous AI Video Pipeline & Gaming Shorts Studio
+### 🧠 [Synapsa-Local-LLM-Agent](https://github.com/BATTLEMETAL/Synapsa-Local-LLM-Agent) — Offline Multi-Agent AI Platform
 
-> **Computer Vision HP-Bar Tracking · OCR Momentum Analyzer · Gemini AI Hooks · Electron Desktop Studio**
+> **Qwen 2.5 7B · NF4 Quantization · Custom Windows Triton Patches · ChromaDB RAG · RTX 3060**
 
-End-to-end autonomous video generation and publishing studio:
-- **Smart Camera (OpenCV):** Solves fast champion dash tracking via multi-layer color-space HP-bar segmentation and adaptive velocity clamping — **100% tracking stability**.
-- **OCR Momentum Analyzer (Tesseract):** Real-time multi-kill OCR, auto-chase speedup (2.8×), dynamic zoom-punch, and 60 FPS slow-motion interpolation.
-- **Multimodal AI & Sound:** Gemini narrative hooks + NCS beat-matched audio mix + automated 1080×1920 thumbnail generation.
-- **Desktop Studio (Electron + React 18 + Vite):** Full GUI management suite with live 7-step render monitor, clip browser, and one-click YouTube publisher.
+Modular autonomous agent architecture running **100% offline** for GDPR-safe document auditing (Polish VAT validation — KSeF 2026, MPP threshold detection, NIP verification) and self-healing code execution (`generate → execute → read traceback → patch`):
+- **Custom CUDA / Triton Windows Layer:** Resolves Windows `bitsandbytes`/Triton compatibility without WSL while cutting VRAM footprint from **14.2 GB → 4.5 GB (−68%)**.
+- **Teacher–Student Fine-Tuning Pipeline:** Synthesizes verified reasoning traces into **Unsloth LoRA (r=16)** adapters later deployed inside **Flikcut Studio**.
 
-🎬 **Live Demos on YouTube:**
-- [▶ Katarina Triple Kill (Full Engage Lead + Beat Sync)](https://www.youtube.com/shorts/POgSCGC9yvQ)
-- [▶ Katarina Pentakill 1v5 (Smart Camera + 2.8x Chase Speedup)](https://www.youtube.com/shorts/cVTTQASHe9w)
-- [▶ Katarina Triple Kill Outplay (Fast Short Control 14.8s)](https://www.youtube.com/shorts/rfWXE2-7fkQ)
-- 📺 **Production Channel:** [Dwannellenga (@dwannellenga471)](https://www.youtube.com/@dwannellenga471/shorts)
-
-```
-🎯 100% CV tracking stability   |   🏆 Quality Score 94-100/100   |   💰 $0/video   |   🖥️ Native Desktop Studio
+```text
+⚡ −68% VRAM (14.2 GB → 4.5 GB) | ✅ 100% Offline (GDPR-safe) | 🧪 38 unit tests CI | 🔒 Zero External Calls
 ```
 
 ---
 
-## 📦 Other Projects
+### ☁️ [Synapsa Cloud API](https://github.com/BATTLEMETAL/synapsa-cloud-api) — Production Serverless RAG API
 
-- [SalesBot](https://github.com/BATTLEMETAL/SalesBot) — Excel → PDF sales report pipeline (pandas, matplotlib, pytest CI)
-- [CineMatch](https://github.com/BATTLEMETAL/CineMatch) — Android movie recommendation app (TMDB + OpenAI + Firebase + Room DB)
-- [SmartBudget-OCR](https://github.com/BATTLEMETAL/SmartBudget-OCR) — Android budget manager with ML Kit OCR (B.Eng. thesis)
-- [TimePal](https://github.com/BATTLEMETAL/TimePal) — Android time tracking app (MVVM · WorkManager · OpenAI)
+> **FastAPI · Pinecone Vector DB · Groq Llama 3.3 70B · Docker · Render.com**
 
----
-
-## 🛠️ Core Stack
-
-```
-AI / LLM        │ Qwen 2.5 7B · NF4/QLoRA quantization · Gemini Multimodal · Unsloth · bitsandbytes · ChromaDB · Pinecone
-Computer Vision │ OpenCV (Color-space segmentation, centroid tracking) · Tesseract OCR · ML Kit
-Desktop & Web   │ Electron 32 · React 18 · TypeScript · Vite · TailwindCSS · FastAPI
-Video & Audio   │ FFmpeg (9:16 dynamic crop, minterpolate 60FPS) · MoviePy · Whisper · Edge-TTS
-Mobile          │ Android (Java) · Room · Retrofit · Expo / React Native · Firebase
-MLOps & Tooling │ pytest · GitHub Actions CI/CD · Docker · pre-commit
-```
+Cloud-native companion exposing Synapsa's document validation and RAG pipeline as a containerized REST API with rate-limit fallback chains and interactive [Swagger UI Live Demo](https://synapsa-cloud-api.onrender.com/docs).
 
 ---
 
-## 📊 What separates my work from tutorials
+## 📦 Engineering & Mobile Portfolio
 
-| Claim | Proof |
+- **[SalesBot](https://github.com/BATTLEMETAL/SalesBot)** — Automated Excel → PDF reporting pipeline (`pandas`, `matplotlib`, `ReportLab`, `OpenAI GPT-4o-mini` with rule-based CI fallback, `12` passing `pytest` tests on GitHub Actions).
+- **[CineMatch](https://github.com/BATTLEMETAL/CineMatch)** — Android movie & TV advisor in **Kotlin / MVVM** (`TMDB` + `OMDB` + `OpenAI GPT-4`, `Firebase Auth/Firestore`, `Room DB`).
+- **[SmartBudget-OCR](https://github.com/BATTLEMETAL/SmartBudget-OCR)** — B.Eng. thesis Android budget manager in **Kotlin / Jetpack Compose** with real-time **Google ML Kit OCR** receipt scanning and `Room DB`.
+- **[TimePal](https://github.com/BATTLEMETAL/TimePal)** — Android productivity & focus engine (`Java`, `MVVM`, `Room`, `WorkManager`, `MPAndroidChart`, offline task heuristics).
+
+---
+
+## 🛠️ Core Technical Stack
+
+```text
+AI & Fine-Tuning │ Qwen 2.5 7B (NF4 / QLoRA) · Unsloth · PEFT · ChromaDB · Pinecone · Groq Llama 3.3 70B
+Computer Vision  │ OpenCV (HP-bar tracking, spatial exclusion) · Tesseract OCR · Google ML Kit OCR
+Backend & Data   │ Python 3.13 · FastAPI · SQLite WAL · OS File Locking (msvcrt/fcntl) · Binary LevelDB V8 Parser · Empirical Bayes
+Video & Audio    │ FFmpeg (NVENC, 9:16 smart pan, 1080p60 long-form) · Beat-sync & sidechain ducking · Hardlink Viral Vault
+Desktop & Mobile │ Electron 32 · React 18 · TypeScript · TailwindCSS · Kotlin · Jetpack Compose · Java · Room
+Testing & DevOps │ pytest (480+ tests across CI) · GitHub Actions CI/CD · Docker · pre-commit · GitHub Pages
+```
+
+---
+
+## 📊 What Separates My Work From Tutorials
+
+| Engineering Area | Production Evidence |
 |---|---|
-| **Production systems, not demos** | 1 paying B2B client (Synapsa, daily use) + autonomous YouTube video pipeline with live verified outputs |
-| **Solved complex CV & Systems problems** | Triton on Windows compatibility patch + Computer Vision HP-bar tracker for high-speed gaming mobility |
-| **Real metrics** | 90/90 frames CV tracking accuracy, QA score 91–92/100, −68% VRAM reduction — verified in production |
-| **Full-Stack Engineering** | Python AI backend (FastAPI) + Native Desktop Studio (Electron, React 18, Vite, TailwindCSS) |
-| **Cost-aware engineering** | Entire AI stack: $0/inference, $0/video, offline-first local compute |
+| **Real-World Production Scale** | Live YouTube Shorts channel (`230+` automated videos, `515K+` views, `97.4%` avg percentage viewed) + live [Swagger API](https://synapsa-cloud-api.onrender.com/docs) |
+| **Low-Level Systems Engineering** | Binary Chromium IndexedDB/V8 `.log` wire decoder (`outplayed_db.py`), Windows Triton kernel patches, `SQLite WAL` + OS lock concurrency |
+| **Honest Telemetry & QA** | Backtested `Quality Scorer` (`r = -0.079` on `94` clips) → replaced guesswork with explicit defect gates and **48h Reality Gate** (`213` clips audited, `66.2%` confirmed) |
+| **Full-Stack Delivery** | End-to-end ownership from Python/CUDA GPU inference & FastAPI (`:8765`) to native Electron 32 / React / TypeScript Desktop Studio |
+| **Test Discipline** | **430** passing unit/integration tests in `Shortsyt` + **38** in `Synapsa` + **12** in `SalesBot` verified in GitHub Actions CI |
 
 ---
 
 <div align="center">
-<sub>📍 Poland · Open to remote AI / Computer Vision / Python Engineering roles</sub>
+<sub>📍 Wrocław, Poland · Open to AI Engineer / Python Backend / Computer Vision roles</sub>
 </div>
-
